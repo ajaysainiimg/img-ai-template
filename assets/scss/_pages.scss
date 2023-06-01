@@ -1,0 +1,207 @@
+@include media-breakpoint(basic) {
+    li{
+        list-style: none;
+    }
+    ul{
+        margin: 0;
+        padding: 0;
+    }
+  .myHeader{
+    z-index: 9999;
+    & .navbar{
+        & .texo-section{
+            & .navbar-nav{
+                & .nav-item{
+                    margin: 0 5px;
+                    & .nav-link{
+                        font-weight: 600;
+                        font-size: 14px;
+                    }
+                }
+            }
+            & .buttn{
+                & .btn{
+                    font-weight: 600;
+                    font-size: 14px;
+                    border-radius: 0;
+                    background-color: $theme1;
+                }
+            }
+        }
+    }
+  }
+  .quality-section{
+    background-color: $theme2;
+
+    & .higher{
+        padding: 100px 70px 100px 0px;
+        & .heading{
+            font-size: 45px;
+            font-weight: 600;
+            line-height: 1.1;
+        }
+        & .content{
+            font-size: 13px;
+        }
+        & .form-control{
+            border-radius: 0;
+            border: none;
+            box-shadow: none;
+        }
+        ::placeholder{
+            font-size: 14px !important;
+            font-weight: 600 !important;
+            color: $black;
+        }
+        & .buttn{
+            & .btn{
+                font-weight: 600;
+                font-size: 14px;
+                border-radius: 0;
+                background-color: $theme1;
+            }
+        }
+        & .lines{
+            & .line{
+                height: 2px;
+                background-color: $black;
+                width: 15%;
+            }
+            & .content{
+                font-size: 13px;
+                font-weight: 600;
+            }
+        }
+    }
+    & .result{
+        padding-top: 100px;
+        & .contnt{
+            & .countImg{
+                background-color: $theme1;
+                border-radius: 50%;
+                & img{
+                    padding: 15px;
+                }
+            }
+            & .conts{
+                & .head{
+                    font-weight: 600;
+                }
+                & .cnt{
+                    font-size: 10px;
+                    font-weight: 600;
+                }
+                & .stars{
+                    & .icn{
+                        font-size: 10px;
+                        color: $theme1;
+                    }
+                }
+            }
+        }
+        & .generate{
+            position: relative;
+            z-index: 9;
+            & .get{
+                & .content{
+                    & .cnts{
+                        font-size: 12px;
+                        font-weight: 600;
+                    }
+                    & .time{
+                        font-size: 10px;
+                        & .icons{
+                            opacity: 0.6;
+                            & .clone{
+                                color: $theme1;
+                            }
+                            & .like{
+                                color: $black;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        & .generate-1{
+            & .head{
+                color: $theme1;
+            }
+            & .cont{
+                font-size: 12px;
+                font-weight: 600;
+            }
+            & .get-1{
+                & .product{
+                    & .form-label{
+                        font-size: 15px;
+                        font-weight: 600;
+                    }
+                    & .form-control{
+                        box-shadow: none;
+                    }
+                    ::placeholder{
+                        font-size: 14px;
+                        font-weight: 600;
+                        color: black;
+                    }
+                }
+                & .product-1{
+                    & .desc{
+                        font-size: 15px;
+                        font-weight: 600;
+                    }
+                    ::placeholder{
+                        font-size: 14px;
+                        font-weight: 600;
+                        color: black;
+                    }
+                    & .form-control{
+                        box-shadow: none;
+                    }
+                }
+            }
+            & .heads{
+                font-size: 15px;
+                font-weight: 600;
+            }
+            & .form-control{
+                border: none;
+                box-shadow: none;
+            }
+            ::placeholder{
+                font-size: 14px !important;
+                font-weight: 600 !important;
+                color: $black;
+            }
+            & .buttn{
+                & .btn{
+                    font-weight: 600;
+                    font-size: 14px;
+                    background-color: $theme1;
+                }
+            }
+        }
+    }
+  }
+}
+@include media-breakpoint-up(sm) {}
+
+@include media-breakpoint-up(md) {}
+
+@include media-breakpoint-up(lg) {}
+
+@include media-breakpoint-up(xl) {}
+
+@include media-breakpoint-up(xxl) {}
+
+
+@include media-breakpoint-down(xxl) {}
+
+@include media-breakpoint-down(xl) {}
+
+@include media-breakpoint-down(lg) {}
+
+@include media-breakpoint-down(md) {}
+
+@include media-breakpoint-down(sm) {}
