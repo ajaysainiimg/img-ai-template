@@ -1,190 +1,506 @@
 @include media-breakpoint(basic) {
-    li{
+    li {
         list-style: none;
     }
-    ul{
+
+    ul {
         margin: 0;
         padding: 0;
     }
-  .myHeader{
-    z-index: 9999;
-    & .navbar{
-        & .texo-section{
-            & .navbar-nav{
-                & .nav-item{
-                    margin: 0 5px;
-                    & .nav-link{
+
+    .myHeader {
+        z-index: 9999;
+
+        & .navbar {
+            & .texo-section {
+                & .navbar-nav {
+                    & .nav-item {
+                        margin: 0 5px;
+
+                        & .nav-link {
+                            font-weight: 600;
+                            font-size: 14px;
+                        }
+                    }
+                }
+
+                & .buttn {
+                    & .btn {
                         font-weight: 600;
                         font-size: 14px;
+                        border-radius: 0;
+                        background-color: $theme1;
                     }
                 }
             }
-            & .buttn{
-                & .btn{
+        }
+    }
+
+    .quality-section {
+        background-color: $theme2;
+        padding-bottom: 100px;
+
+        & .higher {
+            padding: 100px 70px 100px 0px;
+
+            & .heading {
+                font-size: 45px;
+                font-weight: 600;
+                line-height: 1.1;
+            }
+
+            & .content {
+                font-size: 13px;
+            }
+
+            & .form-control {
+                border-radius: 0;
+                border: none;
+                box-shadow: none;
+            }
+
+            ::placeholder {
+                font-size: 14px !important;
+                font-weight: 600 !important;
+                color: $black;
+            }
+
+            & .buttn {
+                & .btn {
                     font-weight: 600;
                     font-size: 14px;
                     border-radius: 0;
                     background-color: $theme1;
                 }
             }
-        }
-    }
-  }
-  .quality-section{
-    background-color: $theme2;
 
-    & .higher{
-        padding: 100px 70px 100px 0px;
-        & .heading{
-            font-size: 45px;
-            font-weight: 600;
-            line-height: 1.1;
-        }
-        & .content{
-            font-size: 13px;
-        }
-        & .form-control{
-            border-radius: 0;
-            border: none;
-            box-shadow: none;
-        }
-        ::placeholder{
-            font-size: 14px !important;
-            font-weight: 600 !important;
-            color: $black;
-        }
-        & .buttn{
-            & .btn{
-                font-weight: 600;
-                font-size: 14px;
-                border-radius: 0;
-                background-color: $theme1;
-            }
-        }
-        & .lines{
-            & .line{
-                height: 2px;
-                background-color: $black;
-                width: 15%;
-            }
-            & .content{
-                font-size: 13px;
-                font-weight: 600;
-            }
-        }
-    }
-    & .result{
-        padding-top: 100px;
-        & .contnt{
-            & .countImg{
-                background-color: $theme1;
-                border-radius: 50%;
-                & img{
-                    padding: 15px;
+            & .lines {
+                & .line {
+                    height: 2px;
+                    background-color: $black;
+                    width: 15%;
                 }
-            }
-            & .conts{
-                & .head{
+
+                & .content {
+                    font-size: 13px;
                     font-weight: 600;
                 }
-                & .cnt{
-                    font-size: 10px;
-                    font-weight: 600;
-                }
-                & .stars{
-                    & .icn{
-                        font-size: 10px;
-                        color: $theme1;
+            }
+        }
+
+        & .result {
+            padding-top: 100px;
+
+            & .contnt {
+                & .countImg {
+                    background-color: $theme1;
+                    border-radius: 50%;
+
+                    & img {
+                        padding: 15px;
                     }
                 }
-            }
-        }
-        & .generate{
-            position: relative;
-            z-index: 9;
-            & .get{
-                & .content{
-                    & .cnts{
-                        font-size: 12px;
+
+                & .conts {
+                    & .head {
                         font-weight: 600;
                     }
-                    & .time{
+
+                    & .cnt {
                         font-size: 10px;
-                        & .icons{
-                            opacity: 0.6;
-                            & .clone{
-                                color: $theme1;
-                            }
-                            & .like{
-                                color: $black;
+                        font-weight: 600;
+                    }
+
+                    & .stars {
+                        & .icn {
+                            font-size: 10px;
+                            color: $theme1;
+                        }
+                    }
+                }
+            }
+
+            & .generate {
+                position: relative;
+                z-index: 9;
+                & .get {
+                    & .content {
+                        & .cnts {
+                            font-size: 12px;
+                            font-weight: 600;
+                        }
+
+                        & .time {
+                            font-size: 10px;
+
+                            & .icons {
+                                opacity: 0.6;
+                                & .like {
+                                    color: $black;
+                                }
                             }
                         }
                     }
                 }
             }
-        }
-        & .generate-1{
-            & .head{
-                color: $theme1;
-            }
-            & .cont{
-                font-size: 12px;
-                font-weight: 600;
-            }
-            & .get-1{
-                & .product{
-                    & .form-label{
-                        font-size: 15px;
-                        font-weight: 600;
-                    }
-                    & .form-control{
-                        box-shadow: none;
-                    }
-                    ::placeholder{
-                        font-size: 14px;
-                        font-weight: 600;
-                        color: black;
-                    }
+
+            & .generate-1 {
+                left: 25%;
+                position: absolute;
+                bottom: -146px;
+                width: 55%;
+
+                & .head {
+                    color: $theme1;
                 }
-                & .product-1{
-                    & .desc{
-                        font-size: 15px;
-                        font-weight: 600;
-                    }
-                    ::placeholder{
-                        font-size: 14px;
-                        font-weight: 600;
-                        color: black;
-                    }
-                    & .form-control{
-                        box-shadow: none;
-                    }
-                }
-            }
-            & .heads{
-                font-size: 15px;
-                font-weight: 600;
-            }
-            & .form-control{
-                border: none;
-                box-shadow: none;
-            }
-            ::placeholder{
-                font-size: 14px !important;
-                font-weight: 600 !important;
-                color: $black;
-            }
-            & .buttn{
-                & .btn{
+
+                & .cont {
+                    font-size: 12px;
                     font-weight: 600;
-                    font-size: 14px;
-                    background-color: $theme1;
+                }
+
+                & .get-1 {
+                    & .product {
+                        & .form-label {
+                            font-size: 15px;
+                            font-weight: 600;
+                        }
+
+                        & .form-control {
+                            box-shadow: none;
+                        }
+
+                        ::placeholder {
+                            font-size: 14px;
+                            font-weight: 600;
+                            color: black;
+                        }
+                    }
+
+                    & .product-1 {
+                        & .desc {
+                            font-size: 15px;
+                            font-weight: 600;
+                        }
+
+                        ::placeholder {
+                            font-size: 14px;
+                            font-weight: 600;
+                            color: black;
+                        }
+
+                        & .form-control {
+                            box-shadow: none;
+                        }
+                    }
+                }
+
+                & .heads {
+                    font-size: 15px;
+                    font-weight: 600;
+                }
+
+                & .form-control {
+                    border: none;
+                    box-shadow: none;
+                }
+
+                ::placeholder {
+                    font-size: 14px !important;
+                    font-weight: 600 !important;
+                    color: $black;
+                }
+
+                & .buttn {
+                    & .btn {
+                        font-weight: 600;
+                        font-size: 14px;
+                        background-color: $theme1;
+                    }
                 }
             }
         }
     }
-  }
+    .rating-section{
+        & .cnts {
+            font-size: 16px;
+            font-weight: 600;
+        }
+    }
+    .writer-section{
+        & .heads{
+            font-size: 35px;
+            font-weight: 700;
+        }
+        & .conts{
+            font-size: 14px;
+            font-weight: 600;
+        }
+        & .ideas{
+            background-color: $theme4;
+            & .numbr{
+                background: $theme5;
+                border-radius: 50%;
+                padding: 10px;
+                height: 30px;
+                width: 30px;
+                font-size: 16px;
+                font-weight: 700;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            & .head{
+                font-size: 25px;
+                font-weight: 700;
+                line-height: 1.2;
+            }
+            & .cont{
+                font-size: 12px;
+                font-weight: 600;
+                & .check{
+                    background: $theme1;
+                    border-radius: 50%;
+                    width: 15px;
+                    height: 15px;
+                    justify-content: center;
+                    display: flex;
+                    align-items: center;
+                }
+            }
+            & .addvertisment{
+                & .adds{
+                    background-color: $theme6; 
+                   
+                }
+                & .add-1{
+                    font-size: 15px;
+                    font-weight: 500;
+                    border-bottom: 1px solid $theme1;
+                }
+                & .cnts{
+                    font-size: 12px;
+                    font-weight: 600;
+                }
+                & .social-icn{
+                    left: -30px;
+                }
+                & .check-1{
+                    & .vector{
+                        border: 1px solid $theme1;
+                        border-radius: 50%;
+                        height: 10px;
+                        width: 10px;
+                    }
+                    & .cntnt{
+                        font-size: 12px;
+                        font-weight: 600;
+                    }
+                }
+                & .work{
+                    background-color: $theme7;
+                    & .search{
+                        right: 10px;
+                        top: 5px;
+                    }
+                    & .form-control {
+                        box-shadow: none;
+                    }
+        
+                    ::placeholder {
+                        font-size: 14px !important;
+                        font-weight: 600 !important;
+                        color: $black;
+                    }
+                    & .line-1{
+                        background-color: $theme8;
+                        height: 8px;
+                        border-radius: 5px;
+                        width: 80%;
+                    }
+                    & .line-2{
+                        background-color: $theme8;
+                        height: 8px;
+                        border-radius: 5px;
+                        width: 50%;
+                    }
+                    & .line-3{
+                        background-color: $theme8;
+                        height: 8px;
+                        border-radius: 5px;
+                        width: 80%;
+                        margin-top: 70px;
+                    }
+                    & .cnts-1{
+                        width: 270px;
+                        font-size: 12px;
+                        font-weight: 600;
+                        left: 10px;
+                    }
+                }
+            }
+        }
+        & .draft{
+            background-color: $theme2;
+            & .idea-1{
+                
+                & .numbr{
+                    background: $theme5;
+                    border-radius: 50%;
+                    padding: 10px;
+                    height: 30px;
+                    width: 30px;
+                    font-size: 16px;
+                    font-weight: 700;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                }
+                & .head{
+                    font-size: 25px;
+                    font-weight: 700;
+                    line-height: 1.2;
+                }
+                & .cont{
+                    font-size: 12px;
+                    font-weight: 600;
+                    & .check{
+                        background: $theme1;
+                        border-radius: 50%;
+                        width: 15px;
+                        height: 15px;
+                        justify-content: center;
+                        display: flex;
+                        align-items: center;
+                    }
+                }
+                & .head-1{
+                    font-size: 14px;
+                    font-weight: 600;
+                }
+                & .cnts{
+                    font-size: 12px;
+                    font-weight: 700;
+                }
+                .cnts-1{
+                    font-size: 12px;
+                    font-weight: 500;
+                    opacity: 0.8;
+                }
+                & .line-4{
+                    height: 8px;
+                    background-color: #e3e3e3;
+                    border-radius: 5px;
+                }
+                & .count{
+                    & .project{
+                        background-color: $theme2;
+                        & .nmbr-1{
+                            font-size: 14px;
+                            font-weight: 700;
+                        }
+                        & .conts-3{
+                            font-size: 10px;
+                            font-weight: 500;
+                        }
+                        & .circle{
+                            background: $theme1;
+                            height: 10px;
+                            width: 10px;
+                            border-radius: 50%;
+                        }
+                        & .circle-1{
+                            background: #fff;
+                            height: 10px;
+                            width: 10px;
+                            border-radius: 50%;
+                            position: absolute;
+                            right: 16px;
+                            top: 18px;
+                        }
+                    }
+                    & .chk{
+                        border: 8px solid #c0cbff80;
+                        border-radius: 50%;
+                        height: 35px;
+                        width: 35px;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                    }
+                    & .chk-1{
+                        background-color: $theme1;
+                        border-radius: 50%;
+                        height: 35px;
+                        width: 35px;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                    }
+                }                               
+            }
+        }
+        & .draft-1{
+            & .let{
+                background-color: $theme2;
+                & .lne{
+                    width: 70%;
+                    & .crcle{
+                        background-color: $theme1;
+                        height: 8px;
+                        width: 8px; 
+                        border-radius: 50%;
+                    }
+                    & .line-6{
+                        height: 8px;
+                        background-color: #e3e3e3;
+                        border-radius: 5px;
+                        width: 40%;
+                    }
+                    & .line-7{
+                        height: 8px;
+                        background-color: #e3e3e3;
+                        border-radius: 5px;
+                        width: 70%;
+                    }
+                }
+                
+                & .numbr{
+                    background: $theme5;
+                    border-radius: 50%;
+                    padding: 10px;
+                    height: 30px;
+                    width: 30px;
+                    font-size: 16px;
+                    font-weight: 700;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                }
+                & .head{
+                    font-size: 25px;
+                    font-weight: 700;
+                    line-height: 1.2;
+                }
+                & .cont{
+                    font-size: 12px;
+                    font-weight: 600;
+                    padding-bottom: 120px;
+                    & .check{
+                        background: $theme1;
+                        border-radius: 50%;
+                        width: 15px;
+                        height: 15px;
+                        justify-content: center;
+                        display: flex;
+                        align-items: center;
+                    }
+                }
+            }
+        }
+    }
 }
+
 @include media-breakpoint-up(sm) {}
 
 @include media-breakpoint-up(md) {}
