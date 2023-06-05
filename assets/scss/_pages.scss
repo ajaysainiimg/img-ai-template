@@ -1112,6 +1112,19 @@
                 filter: invert(1);
             }
         }
+        & .cont{
+            font-size: 12px;
+            font-weight: 600;
+        }
+        & .cnts{
+            opacity: 0.6;
+            font-size: 12px;
+            font-weight: 500;
+        }
+        & .cont-1{
+            font-size: 14px;
+            font-weight: 700;
+        }
         & .buttn{
             background-color: $theme1;
             border-radius: 0;
