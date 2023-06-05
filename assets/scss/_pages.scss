@@ -123,6 +123,7 @@
             & .generate {
                 position: relative;
                 z-index: 9;
+
                 & .get {
                     & .content {
                         & .cnts {
@@ -135,6 +136,7 @@
 
                             & .icons {
                                 opacity: 0.6;
+
                                 & .like {
                                     color: $black;
                                 }
@@ -221,24 +223,29 @@
             }
         }
     }
-    .rating-section{
+
+    .rating-section {
         & .cnts {
             font-size: 16px;
             font-weight: 600;
         }
     }
-    .writer-section{
-        & .heads{
+
+    .writer-section {
+        & .heads {
             font-size: 35px;
             font-weight: 700;
         }
-        & .conts{
+
+        & .conts {
             font-size: 14px;
             font-weight: 600;
         }
-        & .ideas{
+
+        & .ideas {
             background-color: $theme4;
-            & .numbr{
+
+            & .numbr {
                 background: $theme5;
                 border-radius: 50%;
                 padding: 10px;
@@ -250,15 +257,18 @@
                 justify-content: center;
                 align-items: center;
             }
-            & .head{
+
+            & .head {
                 font-size: 25px;
                 font-weight: 700;
                 line-height: 1.2;
             }
-            & .cont{
+
+            & .cont {
                 font-size: 12px;
                 font-weight: 600;
-                & .check{
+
+                & .check {
                     background: $theme1;
                     border-radius: 50%;
                     width: 15px;
@@ -268,70 +278,83 @@
                     align-items: center;
                 }
             }
-            & .addvertisment{
-                & .adds{
-                    background-color: $theme6; 
-                   
+
+            & .addvertisment {
+                & .adds {
+                    background-color: $theme6;
+
                 }
-                & .add-1{
+
+                & .add-1 {
                     font-size: 15px;
                     font-weight: 500;
                     border-bottom: 1px solid $theme1;
                 }
-                & .cnts{
+
+                & .cnts {
                     font-size: 12px;
                     font-weight: 600;
                 }
-                & .social-icn{
+
+                & .social-icn {
                     left: -30px;
                 }
-                & .check-1{
-                    & .vector{
+
+                & .check-1 {
+                    & .vector {
                         border: 1px solid $theme1;
                         border-radius: 50%;
                         height: 10px;
                         width: 10px;
                     }
-                    & .cntnt{
+
+                    & .cntnt {
                         font-size: 12px;
                         font-weight: 600;
                     }
                 }
-                & .work{
+
+                & .work {
                     background-color: $theme7;
-                    & .search{
+
+                    & .search {
                         right: 10px;
                         top: 5px;
                     }
+
                     & .form-control {
                         box-shadow: none;
                     }
-        
+
                     ::placeholder {
                         font-size: 14px !important;
                         font-weight: 600 !important;
                         color: $black;
                     }
-                    & .line-1{
+
+                    & .line-1 {
                         background-color: $theme8;
                         height: 8px;
                         border-radius: 5px;
                         width: 80%;
                     }
-                    & .line-2{
+
+                    & .line-2 {
                         background-color: $theme8;
                         height: 8px;
                         border-radius: 5px;
                         width: 50%;
                     }
-                    & .line-3{
+
+                    & .line-3 {
                         background-color: $theme8;
                         height: 8px;
                         border-radius: 5px;
                         width: 80%;
                         margin-top: 70px;
                     }
-                    & .cnts-1{
+
+                    & .cnts-1 {
                         width: 270px;
                         font-size: 12px;
                         font-weight: 600;
@@ -340,11 +363,13 @@
                 }
             }
         }
-        & .draft{
+
+        & .draft {
             background-color: $theme2;
-            & .idea-1{
-                
-                & .numbr{
+
+            & .idea-1 {
+
+                & .numbr {
                     background: rgb(248 129 129 / 22%);
                     border-radius: 50%;
                     padding: 10px;
@@ -356,15 +381,18 @@
                     justify-content: center;
                     align-items: center;
                 }
-                & .head{
+
+                & .head {
                     font-size: 25px;
                     font-weight: 700;
                     line-height: 1.2;
                 }
-                & .cont{
+
+                & .cont {
                     font-size: 12px;
                     font-weight: 600;
-                    & .check{
+
+                    & .check {
                         background: $theme1;
                         border-radius: 50%;
                         width: 15px;
@@ -374,42 +402,51 @@
                         align-items: center;
                     }
                 }
-                & .head-1{
+
+                & .head-1 {
                     font-size: 14px;
                     font-weight: 600;
                 }
-                & .cnts{
+
+                & .cnts {
                     font-size: 12px;
                     font-weight: 700;
                 }
-                .cnts-1{
+
+                .cnts-1 {
                     font-size: 12px;
                     font-weight: 500;
                     opacity: 0.8;
                 }
-                & .line-4{
+
+                & .line-4 {
                     height: 8px;
                     background-color: #e3e3e3;
                     border-radius: 5px;
                 }
-                & .count{
-                    & .project{
+
+                & .count {
+                    & .project {
                         background-color: $theme2;
-                        & .nmbr-1{
+
+                        & .nmbr-1 {
                             font-size: 14px;
                             font-weight: 700;
                         }
-                        & .conts-3{
+
+                        & .conts-3 {
                             font-size: 10px;
                             font-weight: 500;
                         }
-                        & .circle{
+
+                        & .circle {
                             background: $theme1;
                             height: 10px;
                             width: 10px;
                             border-radius: 50%;
                         }
-                        & .circle-1{
+
+                        & .circle-1 {
                             background: #fff;
                             height: 10px;
                             width: 10px;
@@ -419,7 +456,8 @@
                             top: 18px;
                         }
                     }
-                    & .chk{
+
+                    & .chk {
                         border: 8px solid #c0cbff80;
                         border-radius: 50%;
                         height: 35px;
@@ -428,7 +466,8 @@
                         align-items: center;
                         justify-content: center;
                     }
-                    & .chk-1{
+
+                    & .chk-1 {
                         background-color: $theme1;
                         border-radius: 50%;
                         height: 35px;
@@ -437,36 +476,42 @@
                         align-items: center;
                         justify-content: center;
                     }
-                }                               
+                }
             }
         }
-        & .draft-1{
-            & .let{
+
+        & .draft-1 {
+            & .let {
                 background-color: $theme2;
-                & .lne{
+
+                & .lne {
                     width: 70%;
-                    & .crcle{
+
+                    & .crcle {
                         background-color: $theme1;
                         height: 8px;
-                        width: 8px; 
+                        width: 8px;
                         border-radius: 50%;
                     }
-                    & .line-6{
+
+                    & .line-6 {
                         height: 8px;
                         background-color: #e3e3e3;
                         border-radius: 5px;
                         width: 40%;
                     }
-                    & .line-7{
+
+                    & .line-7 {
                         height: 8px;
                         background-color: #e3e3e3;
                         border-radius: 5px;
                         width: 70%;
                     }
                 }
-                
-                & .numbr{
-                    background: rgb(248 129 129 / 22%);;
+
+                & .numbr {
+                    background: rgb(248 129 129 / 22%);
+                    ;
                     border-radius: 50%;
                     padding: 10px;
                     height: 30px;
@@ -477,16 +522,19 @@
                     justify-content: center;
                     align-items: center;
                 }
-                & .head{
+
+                & .head {
                     font-size: 25px;
                     font-weight: 700;
                     line-height: 1.2;
                 }
-                & .cont{
+
+                & .cont {
                     font-size: 12px;
                     font-weight: 600;
                     padding-bottom: 120px;
-                    & .check{
+
+                    & .check {
                         background: $theme1;
                         border-radius: 50%;
                         width: 15px;
@@ -498,6 +546,542 @@
                 }
             }
         }
+    }
+
+    .creation-section {
+        & .heads {
+            font-size: 35px;
+            font-weight: 700;
+            line-height: 1.2;
+        }
+
+        & .conts {
+            font-size: 14px;
+            font-weight: 600;
+            opacity: 0.6;
+        }
+
+        & .cont {
+            font-size: 12px;
+            font-weight: 700;
+
+            & .check {
+                background: $theme1;
+                border-radius: 50%;
+                width: 15px;
+                height: 15px;
+                justify-content: center;
+                display: flex;
+                align-items: center;
+            }
+        }
+
+        .hassle {
+            background-color: $theme4;
+            position: relative;
+            height: 380px;
+
+            & .generate {
+                position: absolute;
+                bottom: 40px;
+                width: 50%;
+                z-index: 9;
+                left: 130px;
+
+                & .get-2 {
+                    & .lnes {
+                        & .lines-1 {
+                            background-color: $theme9;
+                            height: 8px;
+                            border-radius: 5px;
+                            width: 60%;
+                        }
+
+                        & .lines-2 {
+                            background-color: $theme9;
+                            height: 8px;
+                            border-radius: 5px;
+                            width: 30%;
+                        }
+                    }
+
+                    & .lines-3 {
+                        background-color: $theme9;
+                        height: 8px;
+                        border-radius: 5px;
+                        width: 70%;
+                    }
+                }
+
+                & .buttn {
+                    position: absolute;
+                    top: -15px;
+                    left: -45px;
+
+                    & .btn {
+                        font-weight: 600;
+                        font-size: 14px;
+                        background-color: $theme1;
+                    }
+                }
+                & .buttn-1 {
+                    position: absolute;
+                    right: -60px;
+                    & .btn {
+                        font-weight: 600;
+                        font-size: 14px;
+                        background-color: $theme1;
+                    }
+                }
+            }
+
+            & .generate-1 {
+                & .heads {
+                    font-size: 15px;
+                    color: $theme1;
+                }
+
+                & .get-3 {
+                    & .topic {
+                        font-size: 12px;
+                        font-weight: 600;
+                    }
+
+                    & .lnes-1 {
+                        background-color: $theme9;
+                        border-radius: 15px;
+
+                        & .lines-4 {
+                            background-color: #fff;
+                            height: 4px;
+                            border-radius: 5px;
+                            width: 20%;
+                        }
+
+                        & .ath {
+                            background-color: #fff;
+                            height: 25px;
+                            width: 40%;
+                            border-radius: 15px;
+
+                            & .lines-5 {
+                                background-color: $theme9;
+                                height: 4px;
+                                border-radius: 5px;
+                                width: 60%;
+                            }
+                        }
+
+                    }
+
+                    & .lines-6 {
+                        background-color: $theme9;
+                        height: 8px;
+                        border-radius: 5px;
+                        width: 80%;
+                    }
+
+                    & .lines-7 {
+                        background-color: $theme9;
+                        height: 8px;
+                        border-radius: 5px;
+                        width: 50%;
+                    }
+
+                    & .lnes-3 {
+                        & .lines-8 {
+                            background-color: $theme9;
+                            height: 5px;
+                            border-radius: 5px;
+                            width: 70%;
+                        }
+                    }
+                }
+            }
+        }
+        .hassle-1 {
+            background-color: $theme4;
+            position: relative;
+            height: 475px;
+
+            & .generate {
+                & .get-2 {
+                    & .head-2{
+                        color: $theme1;
+                        font-size: 10px;
+                        font-weight: 600;
+                    }
+                    & .teams{
+                        font-size: 10px;
+                        font-weight: 500;
+                    }
+                    & .lne-1{
+                        height: 5px;
+                    }
+                    & .lines-1 {
+                        background-color: $theme9;
+                        height: 8px;
+                        width: 80%;
+                    }
+
+                    & .lines-2 {
+                        background-color: $theme9;
+                        height: 8px;
+                        width: 40%;
+                    }
+                }
+
+                & .buttn {
+                    position: absolute;
+                    top: -15px;
+                    left: -45px;
+
+                    & .btn {
+                        font-weight: 600;
+                        font-size: 14px;
+                        background-color: $theme1;
+                    }
+                }
+                & .buttn-1 {
+                    position: absolute;
+                    right: -60px;
+                    & .btn {
+                        font-weight: 600;
+                        font-size: 14px;
+                        background-color: $theme1;
+                    }
+                }
+            }
+
+            & .generate-1 {
+                position: absolute;
+                width: 45%;
+                left: 140px;
+                bottom: 120px;
+                & .heads {
+                    font-size: 15px;
+                    color: $theme1;
+                }
+
+                & .get-3 {
+                    & .topic {
+                        font-size: 12px;
+                        font-weight: 700;
+                    }
+                    & .cont-1{
+                        font-size: 10px;
+                        font-weight: 600;
+                    }
+                }
+            }
+        }
+        & .buttns{
+            & .btn{
+                font-weight: 600;
+                font-size: 14px;
+                & .btn-line{
+                    height: 2px;
+                }
+            }
+        }
+    }
+    .optimize-section{
+        background-color: #030c25;
+        & .writes{
+            & .head{
+                font-size: 35px;
+                font-weight: 700;
+            }
+            & .cont{
+                opacity: 0.6;
+                font-size: 12px;
+                font-weight: 600;
+            }
+            & .buttns{
+                & .btn{
+                    font-weight: 600;
+                    font-size: 14px;
+                    & .btn-line{
+                        height: 1px;
+                    }
+                }
+            }
+        }
+        & .navbar{
+            background-color: #edb345;
+
+            & .navbar-brand{
+                filter: invert(1);
+            }
+            & .navbar-nav{
+                font-size: 12px;
+                font-weight: 600;
+            }
+            & .buttn{
+                background: #ffffff3d;
+                & .btn{
+                    font-weight: 600;
+                    font-size: 14px;
+                    & .btn-line{
+                        height: 2px;
+                    }
+                }
+            }
+        }
+        & .check-1{
+            background-color: #030c25;
+            & .vector {
+                border: 1px solid $theme1;
+                border-radius: 50%;
+                height: 20px;
+                width: 20px;
+            }
+            & .unique{
+                font-size: 14px;
+                font-weight: 600;
+            }
+
+            & .cntnt {
+                font-size: 12px;
+                font-weight: 600;
+                opacity: 0.6;
+            }
+        }
+    }
+    .customer-section{
+        padding-top: 5rem;
+        & .heading{
+            font-size: 35px;
+            font-weight: 700;
+            line-height: 1;
+            padding-right: 79px;
+        }
+        & .cnts{
+            font-size: 14px;
+            font-weight: 600;
+        }
+        & .card{
+            & .card-body{
+                & .cnts{
+                    font-size: 13px;
+                    font-weight: 500;
+                }
+                & .head{
+                    font-size: 14px;
+                    font-weight: 700;
+                }
+                &  .img-1{
+                    background: black;
+                    border-radius: 50%;
+                    height: 40px;
+                    width: 40px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    overflow: hidden;
+                    & img{
+                        width: 30px;
+                    }
+                }
+                & .stars{
+                    & img{
+                        width: 20px;
+                    }
+                }
+            }
+        }
+        & .owl-carousel-1{
+            & .owl-nav{
+                top: -140px;
+                right: 0;
+                position: absolute;
+                
+                & .owl-prev{
+                    border: 1px solid $theme1;
+                    border-radius: 50%;
+                    width: 30px;
+                    height: 30px;
+                    display: inline-flex;
+                    align-items: center;
+                    justify-content: center;
+                    margin-right: 10px;
+                    &:hover{
+                        background-color: $theme1;
+                    }
+                    & span{
+                        font-size: 20px;
+                        font-weight: 600;
+                    }
+                }
+                & .owl-next{
+                    border: 1px solid $theme1;
+                    border-radius: 50%;
+                    width: 30px;
+                    height: 30px;
+                    display: inline-flex;
+                    align-items: center;
+                    justify-content: center;
+                    & span{
+                        font-size: 20px;
+                        font-weight: 600;
+                    }
+                    &:hover{
+                        background-color: $theme1;
+                    }
+                }
+            }
+        }
+    }
+    .billing-section{
+        & .heading{
+            font-size: 35px;
+            font-weight: 700;
+            line-height: 1;
+        }
+        & .cnts{
+            font-size: 14px;
+            font-weight: 600;
+        }
+        .switch input { 
+            display:none;
+        }
+        .switch {
+            display:inline-block;
+            width:50px;
+            height:14px;
+            position:relative;
+        }
+        
+        .slider {
+            position: absolute;
+            top: 0px;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            border-radius: 20px;
+            cursor: pointer;
+            border: 1px solid #b7b7b7;
+            overflow: visible;
+            -webkit-transition: .4s;
+            transition: .4s;
+            height: 20px;
+        }
+        .slider:before {
+            position:absolute;
+            content:"";
+            width:15px;
+            height:15px;
+            background:#706F6F;
+            border-radius:100px;
+            top: 1px;
+            left: 3px;
+            -webkit-transform:translateX(-0px);
+            transform:translateX(-0px);
+            -webkit-transition:.4s;
+            transition:.4s;
+            -webkit-box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.23);
+            box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.23);
+        }
+        
+        .switch input:checked + .slider:before {
+            -webkit-transform:translateX(28px);
+            transform:translateX(28px);
+            background:#43AD50;
+        }
+
+        .switch input:checked ~ .off {
+            color: #d3d3d3;   
+            top: -5px;
+        }
+        
+        .switch input:checked ~ .on {
+            color: #43AD50;
+            
+        }
+        & .card{
+            border-radius: 0;
+            & .heading-1{
+                font-size: 20px;
+                font-weight: 700;
+            }
+            & .numbr{
+                font-size: 25px;
+                font-weight: 700;
+                & span{
+                    font-size: 12px;
+                    font-weight: 600;
+                }
+            }
+            & .buttn{
+                & .btn{
+                    border: 2px solid $theme1;
+                    border-radius: 0;
+                    background-color: $theme1;
+                    font-size: 12px;
+                    font-weight: 600;
+                }
+            }
+            & .cnts-1{
+                font-size: 12px;
+                font-weight: 700;
+            }
+        }
+        & .card-1{
+            background-color: #030c25;
+            & .heading-1{
+                font-size: 20px;
+                font-weight: 700;
+            }
+            & .numbr{
+                font-size: 25px;
+                font-weight: 700;
+                & span{
+                    font-size: 12px;
+                    font-weight: 600;
+                }
+            }
+            & .cnts{
+                opacity: 0.6;
+            }
+            & .buttn{
+                & .btn{
+                    border: 2px solid $theme1;
+                    border-radius: 0;
+                    color: $theme1;
+                    font-size: 12px;
+                    font-weight: 600;
+                }
+            }
+            & .cnts-1{
+                font-size: 12px;
+                font-weight: 700;
+            }
+        }
+    }
+    .product-section{
+        & .heading{
+            font-size: 35px;
+            font-weight: 700;
+            line-height: 1;
+        }
+        & .cnts{
+            font-size: 14px;
+            font-weight: 600;
+        }
+        .accordion-item{
+            & .accordion-header{
+                & .accordion-button{
+                    font-size: 12px;
+                    font-weight: 700;
+                }
+            }
+            & .accordion-body .form-check-label{
+                & .form-check-input{
+                    box-shadow: none;
+                }
+            }
+        }
+       
     }
 }
 
