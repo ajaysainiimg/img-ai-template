@@ -1068,20 +1068,58 @@
             font-size: 14px;
             font-weight: 600;
         }
-        .accordion-item{
-            & .accordion-header{
-                & .accordion-button{
-                    font-size: 12px;
-                    font-weight: 700;
+        & .accordion{
+           
+            & .accordion-item{
+                border-radius: 0;
+                background-color: transparent !important;
+                & .accordion-header{
+                    & .accordion-button:not(.collapsed){
+                        background-color: transparent;
+                        color: $black;
+                        &:after{
+                            background-image: black;
+                        }
+                    }
+                    & .accordion-button{
+                        font-size: 14px;
+                        font-weight: 700;
+                        &:focus{
+                            box-shadow: none;
+                        } 
+                    }
                 }
-            }
-            & .accordion-body .form-check-label{
-                & .form-check-input{
-                    box-shadow: none;
+                & .accordion-collapse{
+                    & .accordion-body{
+                        font-size: 12px;
+                        font-weight: 600;
+                    }
+                }
+                & .accordion-body .form-check-label{
+                    & .form-check-input{
+                        box-shadow: none;
+                    }
                 }
             }
         }
+        
        
+    }
+    .footer-section{
+        background-color: #030c25;
+        & .imgs-1{
+            & img{
+                filter: invert(1);
+            }
+        }
+        & .buttn{
+            background-color: $theme1;
+            border-radius: 0;
+            & .btn{
+                font-size: 12px;
+                font-weight: 600;
+            }
+        }
     }
 }
 
