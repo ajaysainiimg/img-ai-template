@@ -507,6 +507,18 @@
                         border-radius: 5px;
                         width: 70%;
                     }
+                    & .image-3{
+                        background: $theme1;
+                        border-radius: 50%;
+                        width: 40px;
+                        height: 40px;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        position: absolute;
+                        right: -18px;
+                        top: 50px;
+                    }
                 }
 
                 & .numbr {
@@ -615,13 +627,19 @@
 
                 & .buttn {
                     position: absolute;
-                    top: -15px;
+                    top: -20px;
                     left: -45px;
 
                     & .btn {
                         font-weight: 600;
                         font-size: 14px;
                         background-color: $theme1;
+                    }
+                    & img{
+                        position: absolute;
+                        top: 33px;
+                        left: 8px;
+                        width: 45px;
                     }
                 }
                 & .buttn-1 {
@@ -637,7 +655,7 @@
 
             & .generate-1 {
                 & .heads {
-                    font-size: 15px;
+                    font-size: 12px;
                     color: $theme1;
                 }
 
@@ -705,6 +723,9 @@
             height: 475px;
 
             & .generate {
+                & .heads-1{
+                    font-size: 12px;
+                }
                 & .get-2 {
                     & .head-2{
                         color: $theme1;
@@ -759,7 +780,7 @@
                 left: 140px;
                 bottom: 120px;
                 & .heads {
-                    font-size: 15px;
+                    font-size: 12px;
                     color: $theme1;
                 }
 
@@ -1121,6 +1142,17 @@
             font-size: 12px;
             font-weight: 500;
         }
+        & .form-control {
+            border-radius: 0;
+            border: none;
+            box-shadow: none;
+        }
+
+        ::placeholder {
+            font-size: 14px !important;
+            font-weight: 600 !important;
+            color: $black;
+        }
         & .cont-1{
             font-size: 14px;
             font-weight: 700;
@@ -1131,6 +1163,24 @@
             & .btn{
                 font-size: 12px;
                 font-weight: 600;
+            }
+        }
+        & .image-1{
+            background-color: $theme1;
+            border-radius: 50%;
+            height: 30px;
+            width: 30px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            & img{
+                height: 15px;
+                width: 15px;
+            }
+        }
+        & .address{
+            & .image-2{
+                right: 5px;
             }
         }
     }
