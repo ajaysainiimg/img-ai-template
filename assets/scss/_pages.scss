@@ -10,12 +10,16 @@
 
     .myHeader {
         z-index: 9999;
+        background-color: $theme2;
 
         & .navbar {
             & .texo-section {
+                & .navbar-brand{
+                    height: 40px;
+                }
                 & .navbar-nav {
                     & .nav-item {
-                        margin: 0 5px;
+                        // margin: 0 5px;
 
                         & .nav-link {
                             font-weight: 600;
@@ -50,12 +54,13 @@
                 }
 
                 & .buttn {
+                    border-radius: 0;
+                    background-color: $theme1;
+                    border: 1px solid $theme1;
                     & .btn {
                         font-weight: 600;
                         font-size: 14px;
-                        border-radius: 0;
-                        background-color: $theme1;
-                        border: 1px solid $theme1;
+                       
                     }
                 }
             }
@@ -64,25 +69,27 @@
 
     .quality-section {
         background-color: $theme2;
-        padding-bottom: 120px;
+        padding-top: 9rem;
+        padding-bottom: 9rem;
 
         & .higher {
-            padding: 100px 70px 100px 0px;
 
             & .heading {
-                font-size: 45px;
+                font-size: 60px;
                 font-weight: 600;
                 line-height: 1.1;
             }
 
             & .content {
-                font-size: 13px;
+                font-size: 16px;
+                font-weight: 400;
             }
 
             & .form-control {
                 border-radius: 0;
                 border: none;
                 box-shadow: none;
+                height: 39px;
             }
 
             ::placeholder {
@@ -98,6 +105,7 @@
                     border-radius: 0;
                     background-color: $theme1;
                     border: 1px solid $theme1;
+                    height: 39px;
                 }
             }
 
@@ -116,7 +124,7 @@
         }
 
         & .result {
-            padding-top: 100px;
+            // padding-top: 100px;
 
             & .contnt {
                 & .countImg {
@@ -148,15 +156,20 @@
                 }
             }
 
-            & .generate {
+            & .card {
                 position: relative;
-                z-index: 9;
+                min-height: 300px;
+                max-width: 300px;
+                z-index: 1;
 
-                & .get {
+                & .card-body {
                     & .content {
                         & .cnts {
-                            font-size: 12px;
+                            font-size: 11px;
                             font-weight: 500;
+                        }
+                        & .cnts-1{
+                            font-size: 10px;
                         }
 
                         & .time {
@@ -258,20 +271,22 @@
     }
 
     .rating-section {
+        & .capterra{
+            height: 35px;
+        }
         & .cnts {
-            font-size: 16px;
+            font-size: 18px;
             font-weight: 600;
         }
     }
 
     .writer-section {
         & .heads {
-            font-size: 35px;
-            font-weight: 700;
+            font-size: 40px;
         }
 
         & .conts {
-            font-size: 14px;
+            font-size: 16px;
             font-weight: 600;
         }
 
@@ -292,13 +307,12 @@
             }
 
             & .head {
-                font-size: 25px;
-                font-weight: 700;
+                font-size: 30px;
                 line-height: 1.2;
             }
 
             & .cont {
-                font-size: 12px;
+                font-size: 14px;
                 font-weight: 600;
 
                 & .check {
@@ -319,34 +333,36 @@
                 }
 
                 & .add-1 {
-                    font-size: 15px;
+                    font-size: 16px;
                     font-weight: 500;
                     border-bottom: 1px solid $theme1;
                 }
 
                 & .cnts {
-                    font-size: 12px;
+                    font-size: 14px;
                     font-weight: 600;
                 }
 
                 & .social-icn {
                     justify-content: center;
                     width: 320px;
-                    height: 40px;
+                    // height: 40px;
                     transform: translate(-30px);
+
+                    & a{
+                        height: 20px;
+                        width: 20px;
+                    }
                 }
 
                 & .check-1 {
+                    font-size: 14px;
+                    font-weight: 600;
                     & .vector {
                         border: 1px solid $theme1;
                         border-radius: 50%;
                         height: 10px;
                         width: 10px;
-                    }
-
-                    & .cntnt {
-                        font-size: 12px;
-                        font-weight: 600;
                     }
                 }
 
@@ -363,16 +379,16 @@
                     }
 
                     ::placeholder {
-                        font-size: 14px !important;
+                        font-size: 12px !important;
                         font-weight: 600 !important;
                         color: $black;
                     }
 
                     & .cnts-1 {
-                        width: 200px;
+                        width: 215px;
                         font-size: 12px;
                         font-weight: 600;
-                        transform: translateX(20px);
+                        transform: translateX(8px);
                     }
                 }
             }
@@ -384,11 +400,11 @@
             & .idea-1 {
 
                 & .numbr {
-                    background: rgb(248 129 129 / 22%);
+                    background: $theme10;
                     border-radius: 50%;
                     padding: 10px;
-                    height: 30px;
-                    width: 30px;
+                    height: 38px;
+                    width: 38px;
                     font-size: 16px;
                     font-weight: 700;
                     display: flex;
@@ -397,13 +413,13 @@
                 }
 
                 & .head {
-                    font-size: 25px;
+                    font-size: 30px;
                     font-weight: 700;
                     line-height: 1.2;
                 }
 
                 & .cont {
-                    font-size: 12px;
+                    font-size: 14px;
                     font-weight: 600;
 
                     & .check {
@@ -496,9 +512,10 @@
                     left: 37px;
                 }
                 & .heads-2{
-                    font-size: 12px;
+                    font-size: 14px;
+                    font-weight: 600;
                     color: $theme1;
-                    background-color: $theme9;
+                    // background-color: $theme9;
                     border-radius: 30px;
                 }
                 & .cnts-2{
@@ -514,8 +531,6 @@
                 background-color: $theme2;
 
                 & .lne {
-                   
-
                     & .crcle {
                         background-color: $theme1;
                         height: 8px;
@@ -526,8 +541,8 @@
                     & .image-3{
                         background: $theme1;
                         border-radius: 50%;
-                        width: 40px;
-                        height: 40px;
+                        width: 47px;
+                        height: 47px;
                         display: flex;
                         align-items: center;
                         justify-content: center;
@@ -538,12 +553,11 @@
                 }
 
                 & .numbr {
-                    background: rgb(248 129 129 / 22%);
-                    ;
+                    background: $theme10;
                     border-radius: 50%;
                     padding: 10px;
-                    height: 30px;
-                    width: 30px;
+                    height: 38px;
+                    width: 38px;
                     font-size: 16px;
                     font-weight: 700;
                     display: flex;
@@ -552,13 +566,13 @@
                 }
 
                 & .head {
-                    font-size: 25px;
+                    font-size: 30px;
                     font-weight: 700;
                     line-height: 1.2;
                 }
 
                 & .cont {
-                    font-size: 12px;
+                    font-size: 14px;
                     font-weight: 600;
                     padding-bottom: 120px;
 
@@ -578,19 +592,19 @@
 
     .creation-section {
         & .heads {
-            font-size: 35px;
+            font-size: 40px;
             font-weight: 700;
             line-height: 1.2;
         }
 
         & .conts {
-            font-size: 14px;
+            font-size: 16px;
             font-weight: 600;
             opacity: 0.6;
         }
 
         & .cont {
-            font-size: 12px;
+            font-size: 14px;
             font-weight: 700;
 
             & .check {
@@ -679,7 +693,16 @@
                                 width: 60%;
                             }
                         }
+                        
 
+                    }
+                    & .lnes-3{
+                        & .lines-6 {
+                            background-color: $theme9;
+                            height: 4px;
+                            border-radius: 5px;
+                            width: 60%;
+                        }
                     }
                 }
             }
