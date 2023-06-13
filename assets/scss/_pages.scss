@@ -398,7 +398,64 @@
             background-color: $theme2;
 
             & .idea-1 {
-
+                & .tackle{
+                    max-width: 300px;
+                }
+                & .card{
+                    max-width: 270px;
+                    .card-body{
+                        & .project {
+                            background-color: $theme2;
+    
+                            & .nmbr-1 {
+                                font-size: 14px;
+                                font-weight: 700;
+                            }
+    
+                            & .conts-3 {
+                                font-size: 10px;
+                                font-weight: 500;
+                            }
+    
+                            & .circle {
+                                background: $theme1;
+                                height: 10px;
+                                width: 10px;
+                                border-radius: 50%;
+                            }
+    
+                            & .circle-1 {
+                                background: #fff;
+                                height: 10px;
+                                width: 10px;
+                                border-radius: 50%;
+                                position: absolute;
+                                right: 27px;
+                                top: 17px;
+                            }
+                        }
+    
+                        & .chk {
+                            border: 8px solid $theme11;
+                            border-radius: 50%;
+                            height: 35px;
+                            width: 35px;
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                        }
+    
+                        & .chk-1 {
+                            background-color: $theme1;
+                            border-radius: 50%;
+                            height: 35px;
+                            width: 35px;
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                        }
+                    }
+                }
                 & .numbr {
                     background: $theme10;
                     border-radius: 50%;
@@ -453,59 +510,6 @@
                     height: 8px;
                     background-color: #e3e3e3;
                     border-radius: 5px;
-                }
-
-                & .count {
-                    & .project {
-                        background-color: $theme2;
-
-                        & .nmbr-1 {
-                            font-size: 14px;
-                            font-weight: 700;
-                        }
-
-                        & .conts-3 {
-                            font-size: 10px;
-                            font-weight: 500;
-                        }
-
-                        & .circle {
-                            background: $theme1;
-                            height: 10px;
-                            width: 10px;
-                            border-radius: 50%;
-                        }
-
-                        & .circle-1 {
-                            background: #fff;
-                            height: 10px;
-                            width: 10px;
-                            border-radius: 50%;
-                            position: absolute;
-                            right: 16px;
-                            top: 18px;
-                        }
-                    }
-
-                    & .chk {
-                        border: 8px solid #c0cbff80;
-                        border-radius: 50%;
-                        height: 35px;
-                        width: 35px;
-                        display: flex;
-                        align-items: center;
-                        justify-content: center;
-                    }
-
-                    & .chk-1 {
-                        background-color: $theme1;
-                        border-radius: 50%;
-                        height: 35px;
-                        width: 35px;
-                        display: flex;
-                        align-items: center;
-                        justify-content: center;
-                    }
                 }
                 & .medium{
                     bottom: 15px;
@@ -619,16 +623,16 @@
         }
 
         .hassle {
-            background-color: $theme4;
+            background-color: $theme12;
             position: relative;
             height: 420px;
 
             & .generate {
                 position: absolute;
-                bottom: 60px;
+                bottom: 25px;
                 width: 50%;
                 z-index: 9;
-                left: 130px;
+                left: 100px;
 
                 & .buttn {
                     position: absolute;
@@ -659,20 +663,24 @@
             }
 
             & .generate-1 {
+                max-width: 300px;
+                min-height: 300px;
+                z-index: 1;
                 & .heads {
-                    font-size: 12px;
+                    font-size: 16px;
                     color: $theme1;
                 }
 
                 & .get-3 {
                     & .topic {
-                        font-size: 12px;
+                        font-size: 11px;
                         font-weight: 600;
                     }
 
                     & .lnes-1 {
                         background-color: $theme9;
                         border-radius: 15px;
+                        height: 30px;
                         & .lines-4 {
                             background-color: #fff;
                             height: 4px;
@@ -682,7 +690,7 @@
 
                         & .ath {
                             background-color: #fff;
-                            height: 25px;
+                            height: 30px;
                             width: 40%;
                             border-radius: 15px;
 
@@ -697,33 +705,37 @@
 
                     }
                     & .lnes-3{
+                        height: 30px;
                         & .lines-6 {
                             background-color: $theme9;
                             height: 4px;
                             border-radius: 5px;
-                            width: 60%;
+                            width: 70%;
                         }
                     }
                 }
             }
         }
         .hassle-1 {
-            background-color: $theme4;
+            background-color: $theme12;
             position: relative;
-            height: 475px;
+            height: 580px;
 
             & .generate {
+                min-height: 300px;
+                max-width: 300px;
+                z-index: 1;
                 & .heads-1{
-                    font-size: 12px;
+                    font-size: 16px;
                 }
                 & .get-2 {
                     & .head-2{
                         color: $theme1;
-                        font-size: 10px;
+                        font-size: 12px;
                         font-weight: 600;
                     }
                     & .teams{
-                        font-size: 10px;
+                        font-size: 11px;
                         font-weight: 500;
                     }
                     & .lne-1{
@@ -766,21 +778,21 @@
 
             & .generate-1 {
                 position: absolute;
-                width: 45%;
-                left: 140px;
-                bottom: 115px;
+                max-width: 300px;
+                right: 80px;
+                bottom: 160px;
                 & .heads {
-                    font-size: 12px;
+                    font-size: 16px;
                     color: $theme1;
                 }
 
                 & .get-3 {
                     & .topic {
-                        font-size: 12px;
+                        font-size: 14px;
                         font-weight: 700;
                     }
                     & .cont-1{
-                        font-size: 10px;
+                        font-size: 12px;
                         font-weight: 600;
                     }
                 }
@@ -797,15 +809,15 @@
         }
     }
     .optimize-section{
-        background-color: #030c25;
+        background-color: $theme13;
         & .writes{
             & .head{
-                font-size: 35px;
+                font-size: 40px;
                 font-weight: 700;
             }
             & .cont{
                 opacity: 0.6;
-                font-size: 12px;
+                font-size: 16px;
                 font-weight: 600;
             }
             & .buttns{
@@ -829,8 +841,11 @@
                 font-weight: 600;
                 & .nav-item{
                     margin: 0 5px;
-                    & .nav-link:hover{
-                        color: #030c25 !important;
+                    & .nav-link{
+                        font-size: 14px;
+                        &:hover{
+                            color: $theme13 !important;
+                        }
                     }
                 }
             }
@@ -854,12 +869,12 @@
                 width: 20px;
             }
             & .unique{
-                font-size: 14px;
+                font-size: 16px;
                 font-weight: 600;
             }
 
             & .cntnt {
-                font-size: 12px;
+                font-size: 14px;
                 font-weight: 600;
                 opacity: 0.6;
             }
@@ -868,23 +883,23 @@
     .customer-section{
         padding-top: 5rem;
         & .heading{
-            font-size: 35px;
+            font-size: 40px;
             font-weight: 700;
             line-height: 1;
             padding-right: 79px;
         }
         & .cnts{
-            font-size: 14px;
+            font-size: 16px;
             font-weight: 600;
         }
         & .card{
             & .card-body{
                 & .cnts{
-                    font-size: 13px;
+                    font-size: 16px;
                     font-weight: 500;
                 }
                 & .head{
-                    font-size: 14px;
+                    font-size: 18px;
                     font-weight: 700;
                 }
                 &  .img-1{
@@ -902,8 +917,12 @@
                 }
                 & .stars{
                     & img{
-                        width: 20px;
+                        width: 25px;
+                        height: 25px;
                     }
+                }
+                & .cntens{
+                    font-size: 14px;
                 }
             }
         }
@@ -951,24 +970,25 @@
     }
     .billing-section{
         & .heading{
-            font-size: 35px;
+            font-size: 40px;
             font-weight: 700;
             line-height: 1;
         }
         & .cnts{
-            font-size: 14px;
+            font-size: 16px;
             font-weight: 500;
-        }
-        .switch input { 
-            display:none;
         }
         .switch {
             display:inline-block;
-            width:50px;
-            height:14px;
+            width:40px;
+            height:20px;
             position:relative;
+            & .input { 
+                display:none;
+            }
         }
         .bills{
+            font-size: 16px;
             font-weight: 600;
         }
         .slider {
@@ -984,22 +1004,22 @@
             -webkit-transition: .4s;
             transition: .4s;
             height: 20px;
-        }
-        .slider:before {
-            position:absolute;
-            content:"";
-            width:15px;
-            height:15px;
-            background:#b7b7b7;
-            border-radius:100px;
-            top: 1px;
-            left: 3px;
-            -webkit-transform:translateX(-0px);
-            transform:translateX(-0px);
-            -webkit-transition:.4s;
-            transition:.4s;
-            -webkit-box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.23);
-            box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.23);
+            &:before {
+                position:absolute;
+                content:"";
+                width:15px;
+                height:15px;
+                background:#b7b7b7;
+                border-radius:100px;
+                top: 1px;
+                left: 3px;
+                -webkit-transform:translateX(-0px);
+                transform:translateX(-0px);
+                -webkit-transition:.4s;
+                transition:.4s;
+                -webkit-box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.23);
+                box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.23);
+            }
         }
         .switch input:checked + .slider {
             background-color: $theme1;
@@ -1026,14 +1046,14 @@
         & .card{
             border-radius: 0;
             & .heading-1{
-                font-size: 20px;
+                font-size: 25px;
                 font-weight: 700;
             }
             & .numbr{
-                font-size: 25px;
+                font-size: 30px;
                 font-weight: 700;
                 & span{
-                    font-size: 12px;
+                    font-size: 14px;
                     font-weight: 600;
                 }
             }
@@ -1042,28 +1062,24 @@
                     border: 2px solid $theme1;
                     border-radius: 0;
                     background-color: $theme1;
-                    font-size: 12px;
+                    font-size: 16px;
                     font-weight: 600;
                 }
             }
             & .cnts-1{
-                font-size: 12px;
+                font-size: 14px;
                 font-weight: 700;
             }
         }
         & .card-1{
             background-color: #030c25;
             & .heading-1{
-                font-size: 20px;
+                font-size: 25px;
                 font-weight: 700;
             }
             & .numbr{
-                font-size: 25px;
+                font-size: 30px;
                 font-weight: 700;
-                & span{
-                    font-size: 12px;
-                    font-weight: 600;
-                }
             }
             & .cnts{
                 opacity: 0.6;
@@ -1073,31 +1089,42 @@
                     border: 2px solid $theme1;
                     border-radius: 0;
                     color: $theme1;
-                    font-size: 12px;
+                    font-size: 16px;
                     font-weight: 600;
                 }
             }
             & .cnts-1{
-                font-size: 12px;
+                font-size: 14px;
                 font-weight: 700;
             }
         }
     }
     .product-section{
         & .heading{
-            font-size: 35px;
+            font-size: 40px;
             font-weight: 700;
             line-height: 1;
         }
         & .cnts{
-            font-size: 14px;
+            font-size: 16px;
             font-weight: 600;
         }
-        & .accordion{
-           
+        & .freq{
+            &:before{
+                content: "";
+                width: 80%;
+                height: 100%;
+                position: absolute;
+                inset: 0;
+                margin: auto;
+                background: #f8f9fa;
+                z-index: -1;
+            }
+        }
+        & .accordion{           
             & .accordion-item{
                 border-radius: 0;
-                background-color: transparent !important;
+                // background-color: transparent !important;
                 & .accordion-header{
                     & .accordion-button:not(.collapsed){
                         background-color: transparent;
@@ -1120,7 +1147,7 @@
                             position: absolute;
                             right: 15px;
                             background-image: none;
-                            font-size: 25px;
+                            font-size: 27px;
                             display: flex;
                             align-items: center;
                             justify-content: center;
@@ -1140,8 +1167,7 @@
                 }
             }
         }
-        
-       
+     
     }
     .footer-section{
         background-color: #030c25;
@@ -1151,16 +1177,16 @@
             }
         }
         & .cont{
-            font-size: 12px;
+            font-size: 16px;
             font-weight: 600;
         }
         & .cnts-1{
             opacity: 0.6;
-            font-size: 12px;
+            font-size: 14px;
             font-weight: 500;
         }
         & .cnts{
-            font-size: 12px;
+            font-size: 14px;
             font-weight: 500;
             position: relative;
             transition: all ease-in-out .5s;
@@ -1212,6 +1238,9 @@
             box-shadow: none;
             height: 50px;
         }
+        & .imgs-1{
+            height: 31px;
+        }
 
         ::placeholder {
             font-size: 14px !important;
@@ -1219,22 +1248,23 @@
             color: $black;
         }
         & .cont-1{
-            font-size: 14px;
+            font-size: 20px;
             font-weight: 700;
         }
+       
         & .buttn{
             background-color: $theme1;
             border-radius: 0;
             & .btn{
-                font-size: 12px;
+                font-size: 16px;
                 font-weight: 600;
             }
         }
         & .image-1{
             background-color: $theme1;
             border-radius: 50%;
-            height: 30px;
-            width: 30px;
+            height: 40px;
+            width: 40px;
             display: flex;
             justify-content: center;
             align-items: center;
@@ -1249,6 +1279,7 @@
                 height: 30px;
             }
         }
+
     }
 }
 
