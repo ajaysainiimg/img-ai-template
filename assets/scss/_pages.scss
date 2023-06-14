@@ -543,6 +543,7 @@
                 background-color: $theme2;
 
                 & .lne {
+                    max-width: 400px;
                     & .crcle {
                         background-color: $theme1;
                         height: 8px;
@@ -635,13 +636,14 @@
             background-color: $theme12;
             position: relative;
             height: 420px;
-
-            & .generate {
-                position: absolute;
-                bottom: 25px;
-                width: 50%;
+            padding-left: 6rem;
+            & .gen-1{
+                margin-top: -12%;
                 z-index: 9;
-                left: 100px;
+            }
+            & .generate {
+                position: relative;
+                max-width: 300px;
 
                 & .buttn {
                     position: absolute;
@@ -802,7 +804,6 @@
                     }
                     & .cont-1{
                         font-size: 12px;
-                        font-weight: 600;
                     }
                 }
             }
@@ -902,7 +903,6 @@
         }
         & .cnts{
             font-size: 16px;
-            font-weight: 600;
         }
         & .card{
             & .card-body{
@@ -1305,7 +1305,9 @@
 
 @include media-breakpoint-up(md) {}
 
-@include media-breakpoint-up(lg) {}
+@include media-breakpoint-up(lg) {
+    
+}
 
 @include media-breakpoint-up(xl) {}
 
@@ -1316,8 +1318,447 @@
 
 @include media-breakpoint-down(xl) {}
 
-@include media-breakpoint-down(lg) {}
+@include media-breakpoint-down(lg) {
+    .quality-section{
+        & .higher{
+           
+            & .heading{
+                font-size: 50px;
+            }
+            
+        }
+        & .result{
+            padding-top: 2.5rem;
+            & .card{
+                margin-left: auto;
+            }
+            & .generate-1{
+                margin-top: -25%;
+            }
+            & .cntent-2{
+                margin-left: 23%;
+            }
+        }
+    }
+    .rating-section{
+        & .capterra{
+            height: auto;
+        }
+    }
+    .writer-section{
+        & .heads{
+            font-size: 30px;
+        }
+        & .ideas{
+            & .addvertisment{
+                margin-top: 40px;
+            }
+        }
+        & .draft{
+            margin-bottom: 1.5rem !important;
+        }
+        & .draft-1{
+            margin-top: 0 !important;
+            padding-left: 0;
+            & .let{
+                & .cont{
+                    padding-bottom: 0;
+                }
+            }
+        }
+    }
+    .optimize-section{
+        & .writes{
+            & .head{
+                font-size: 30px;
+            }
+        }
+    }
+    .customer-section{
+        & .heading{
+            font-size: 30px;
+            padding-right: 0;
+        }
+    }
+    .billing-section{
+        & .heading{
+            font-size: 30px;
+            padding-right: 0;
+        }
+        & .card-1{
+            margin-top: 25px;
+        }
+    }
+    .product-section{
+        & .heading{
+            font-size: 30px;
+        }
+        & .cnts{
+            padding-right: 0 !important;
+        }
+    }
+    .footer-section{
+        & .cnts-1{
+            padding-right: 0 !important;
+            margin-right: 0 !important;
+        }
+        & .cont-1{
+            padding-bottom: 1rem !important;
+        }
+    }
+}
 
-@include media-breakpoint-down(md) {}
+@include media-breakpoint-down(md) {
+    .container-fluid{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .quality-section{
+        & .higher{
+            & .heading{
+                font-size: 30px;
+            }
+            & .content{
+                font-size: 13px;
+                padding-right: 0 !important;
+            }
+            .form-control{
+                height: auto;
+                margin-bottom: 10px;
+            }
+            ::placeholder{
+                font-size: 10px !important;  
+            }
+            & .buttn{
+                & .btn{
+                    width: 100%;
+                    font-size: 10px;
+                    height: 34px;
+                }
+            }
+            & .lines{
+                justify-content: center;
+                & .line{
+                    width: 20%;
+                }
+                & .content{
+                    font-size: 10px;
+                    padding-right: 0.5rem !important;
+                    padding-left: 0.5rem !important;
+                }
+            }
+            
+        }
+        & .result{
+            padding-top: 2.5rem;
+            & .pen{
+                padding-left: 0;
+                & .card{
+                    & .rslt{
+                        font-size: 12px;
+                    }
+                    & .card-body{
+                        padding: 0.5rem;
+                    }
+                }
+            }
+            
+            & .generate-1{
+                margin-top: -65%;
+                margin-left: 10% !important;
+            }
+            & .cntent-2{
+                margin-left: 0;
+                & .contnt {
+                    padding: 0.25rem 0.5rem!important;
+                    & .countImg img{
+                        padding: 7px;
+                    }
+                    & .conts{
+                        & .head{
+                            font-size: 13px;
+                        }
+                        & .cnt{
+                            font-size: 8px;
+                        }
+                        & img{
+                            width: 7px;
+                            height: 6px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .rating-section{
+        padding-top: 3rem;
+        & .capterra{
+            height: 35px;
+        }
+    }
+    .writer-section{
+        & .heads{
+            font-size: 22px;
+        }
+        & .conts{
+            font-size: 13px;
+            font-weight: 500;
+        }
+        & .ideas{
+            & .head{
+                font-size: 20px;
+                padding-right: 0 !important;
+            }
+            & .addvertisment{
+                & .effect{
+                    margin-right: 0 !important;
+                }
+                & .social-icn{
+                    width: 270px;
+                    transform: translate(-28px);
+                    & .fb{
+                        padding: 0 12px !important;
+                    }
+                }
+                & .cnts{
+                    font-size: 10px;
+                }
+                & .check-1{
+                    font-size: 10px;
+                }
+                
+                & .work{
+                    & .cnts-1{
+                        font-size: 10px;
+                        width: 230px;
+                    }
+                }
+            }
+        }
+        & .draft{
+            margin: 1.5rem auto !important;
+            & .idea-1{
+                & .head{
+                    font-size: 20px;
+                    padding-right: 0 !important;
+                }
+                & .tackle{
+                    margin-right: 0 !important;
+                    margin-bottom: 25px;
+
+                }
+            }
+        }
+        & .draft-1{
+            padding: 0 15px !important;
+            & .let{
+                & .head{
+                    font-size: 20px;
+                    padding-right: 0 !important;
+                }
+                & .cont{
+                    font-size: 10px;
+                }
+            }
+        }
+    }
+    .creation-section{
+        padding: 0 15px;
+        & .heads{
+            font-size: 22px;
+            padding: 0 15px !important;
+        }
+        & .conts{
+            font-size: 13px;
+            padding:  15px !important;
+        }
+        & .cont{
+            padding: 5px 15px !important;
+            font-size: 10px;
+        }
+        & .hassle{
+            margin-top: 2rem !important;
+            margin-bottom: 2rem !important;
+            padding-right: 0.5rem !important;
+            padding-left: 3rem !important;
+            & .generate-1{
+                & .heads{
+                    font-size: 12px;
+                    padding: 0.25rem !important;
+                }
+            }
+            & .generate{
+                max-width: 250px;
+                left: -20px;
+                
+                & .buttn{
+                    position: absolute;
+                    top: -16px;
+                    left: -53px;
+                    & .btn{
+                        font-size: 10px;
+                    }
+                    & img{
+                        top: 28px;
+                        left: 13px;
+                    }
+                }
+                & .buttn-1{
+                    & .btn{
+                        padding-top: 0.25rem;
+                        padding-bottom: 0.25rem;
+                    }
+                }
+            }
+        }
+        & .cures{
+            padding-left: 0 !important;
+        }
+        & .buttns{
+            padding-left: 15px;
+            & .btn{
+                font-size: 10px;
+            }
+        }
+        & .cres{
+            padding-left: 15px !important;
+            & .hassle-1{
+                padding-left: 1rem !important;
+                margin: 0 !important;
+                & .generate{
+                    & .get-2{
+                        & .head-2{
+                            font-size: 10px;
+                        }
+                    }
+                }
+                & .generate-1{
+                    right: 0;
+                    max-width: 220px;
+                    bottom: 175px;
+                    & .heads{
+                        font-size: 12px;
+                        padding: 0.5rem !important;
+                    }
+                    & .get-3{
+                        & .topic{
+                            font-size: 10px;
+                        }
+                        & .cont-1{
+                            font-size: 10px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .optimize-section{
+        & .writes{
+            & .head{
+                font-size: 22px;
+            }
+            & .cont{
+                font-size: 13px;
+            }
+            & .buttns{
+                & .btn{
+                    font-size: 16px;
+                }
+            }
+        }
+        
+        & .accnt{
+            padding: 16px 8px !important;
+        }
+        & .idea-5{
+            padding-right: 0 !important;
+            padding-bottom: 0.5rem !important;
+            & .check-1{
+                padding: 1rem !important;
+                & .unique{
+                    font-size: 13px;
+                    padding-bottom: 0.5rem !important;
+                }
+                & .cntnt{
+                    font-size: 10px;
+                }
+            }
+        }
+        & .idea-6{
+            padding-bottom: 0.5rem !important;
+            & .check-1{
+                padding: 1rem !important;
+                & .unique{
+                    font-size: 13px;
+                    padding-bottom: 0.5rem !important;
+                }
+                & .cntnt{
+                    font-size: 10px;
+                }
+            }
+        }
+        
+    }
+    .customer-section{
+        padding-top: 3rem;
+        padding-left: 12px;
+        padding-right: 12px;
+        & .heading{
+            font-size: 22px;
+        }
+        & .cnts{
+            font-size: 13px;
+        }
+        & .owl-carousel-1 .owl-nav{
+            display: none !important;
+        }
+        & .card{
+            & .card-body{
+                & .head{
+                    font-size: 14px;
+                }
+                & .cnts{
+                    font-size: 13px;
+                }
+                & .stars{
+                    & img{
+                        width: 20px;
+                        height: 20px;
+                    }
+                }
+                & .cntens{
+                    font-size: 10px;
+                }
+            }
+        }
+    }
+    .billing-section{
+        padding-left: 15px;
+        padding-right: 15px;
+        & .heading{
+            font-size: 21px;
+        }
+        & .cnts{
+            font-size: 13px;
+            padding-right: 0 !important;
+        }
+        & .bills{
+            font-size: 13px;
+        }
+        & .card{
+            margin-bottom: 25px;
+        }
+        & .card-1{
+            margin-top: 0;
+            margin-bottom: 25px;
+        }
+    }
+    .product-section{
+        display: none;
+    }
+    .footer-section{
+        display: none;
+    }
+}
 
 @include media-breakpoint-down(sm) {}
