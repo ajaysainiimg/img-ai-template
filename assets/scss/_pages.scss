@@ -8,6 +8,10 @@
         padding: 0;
     }
 
+    .btn{
+        background-image: none;
+        color: $black;
+    }
     .myHeader {
         z-index: 9999;
         background-color: $theme2;
@@ -24,6 +28,7 @@
                         & .nav-link {
                             font-weight: 600;
                             font-size: 14px;
+                            transition: all ease-in-out 0.3s;
                             &:hover{
                                 color: $theme1 !important;
                             }
@@ -38,6 +43,7 @@
                                     width: 10px;
                                     background-size: contain;
                                     border: 0px;
+                                    transition: all ease-in-out 0.3s;
                                 }
                                 &:hover:after{
                                     background-image: url(../img/svg/arrow-down-339-svgrepo-com-1.svg);
@@ -45,6 +51,7 @@
                                     width: 10px;
                                     background-size: contain;
                                     border: 0px;
+                                    transition: all ease-in-out 0.3s;
                                 }
                             }
                             
@@ -69,8 +76,7 @@
 
     .quality-section {
         background-color: $theme2;
-        padding-top: 9rem;
-        padding-bottom: 9rem;
+        padding-top: 7rem;
 
         & .higher {
 
@@ -83,6 +89,7 @@
             & .content {
                 font-size: 16px;
                 font-weight: 400;
+                opacity: 0.8;
             }
 
             & .form-control {
@@ -117,7 +124,7 @@
                 }
 
                 & .content {
-                    font-size: 13px;
+                    font-size: 14px;
                     font-weight: 600;
                 }
             }
@@ -188,10 +195,8 @@
             }
 
             & .generate-1 {
-                left: 19%;
-                position: absolute;
-                bottom: -160px;
-                width: 55%;
+                max-width: 300px;
+                margin-top: -33%;
 
                 & .head {
                     color: $theme1;
@@ -271,6 +276,8 @@
     }
 
     .rating-section {
+        background-color: $theme14;
+        padding-top: 6rem;
         & .capterra{
             height: 35px;
         }
@@ -281,6 +288,7 @@
     }
 
     .writer-section {
+        background-color: $theme14;
         & .heads {
             font-size: 40px;
         }
@@ -402,7 +410,7 @@
                     max-width: 300px;
                 }
                 & .card{
-                    max-width: 270px;
+                    max-width: 300px;
                     .card-body{
                         & .project {
                             background-color: $theme2;
@@ -595,6 +603,7 @@
     }
 
     .creation-section {
+        background-color: $theme14;
         & .heads {
             font-size: 40px;
             font-weight: 700;
@@ -603,7 +612,7 @@
 
         & .conts {
             font-size: 16px;
-            font-weight: 600;
+            font-weight: 500;
             opacity: 0.6;
         }
 
@@ -809,7 +818,7 @@
         }
     }
     .optimize-section{
-        background-color: $theme13;
+        background-color: $theme15;
         & .writes{
             & .head{
                 font-size: 40px;
@@ -818,7 +827,7 @@
             & .cont{
                 opacity: 0.6;
                 font-size: 16px;
-                font-weight: 600;
+                font-weight: 500;
             }
             & .buttns{
                 & .btn{
@@ -843,8 +852,10 @@
                     margin: 0 5px;
                     & .nav-link{
                         font-size: 14px;
+                        transition: all ease-in-out 0.3s;
                         &:hover{
-                            color: $theme13 !important;
+                            color: $theme15 !important;
+                            transition: all ease-in-out 0.3s;
                         }
                     }
                 }
@@ -861,7 +872,7 @@
             }
         }
         & .check-1{
-            background-color: #030c25;
+            background-color: $theme15;
             & .vector {
                 border: 1px solid $theme1;
                 border-radius: 50%;
@@ -875,13 +886,14 @@
 
             & .cntnt {
                 font-size: 14px;
-                font-weight: 600;
+                font-weight: 500;
                 opacity: 0.6;
             }
         }
     }
     .customer-section{
         padding-top: 5rem;
+        background-color: $theme14;
         & .heading{
             font-size: 40px;
             font-weight: 700;
@@ -933,16 +945,17 @@
                 position: absolute;
                 
                 & .owl-prev{
-                    border: 1px solid $theme1;
+                    border: 2px solid $theme1;
                     border-radius: 50%;
-                    width: 30px;
-                    height: 30px;
+                    width: 40px;
+                    height: 40px;
                     display: inline-flex;
                     align-items: center;
                     justify-content: center;
                     margin-right: 10px;
                     &:hover{
                         background-color: $theme1;
+                        transition: all ease-in-out 0.3s;
                     }
                     & span{
                         font-size: 20px;
@@ -950,10 +963,10 @@
                     }
                 }
                 & .owl-next{
-                    border: 1px solid $theme1;
+                    border: 2px solid $theme1;
                     border-radius: 50%;
-                    width: 30px;
-                    height: 30px;
+                    width: 40px;
+                    height: 40px;
                     display: inline-flex;
                     align-items: center;
                     justify-content: center;
@@ -963,12 +976,14 @@
                     }
                     &:hover{
                         background-color: $theme1;
+                        transition: all ease-in-out 0.3s;
                     }
                 }
             }
         }
     }
     .billing-section{
+        background-color: $theme14;
         & .heading{
             font-size: 40px;
             font-weight: 700;
@@ -983,7 +998,7 @@
             width:40px;
             height:20px;
             position:relative;
-            & .input { 
+            & input { 
                 display:none;
             }
         }
@@ -1023,12 +1038,11 @@
         }
         .switch input:checked + .slider {
             background-color: $theme1;
-            border: 0;
-            
+            border: 0;           
         }
         .switch input:checked + .slider:before {
-            -webkit-transform:translateX(28px);
-            transform:translateX(28px);
+            -webkit-transform:translateX(20px);
+            transform:translateX(20px);
             background-color: white;
             top: 2px;
         }
@@ -1072,7 +1086,7 @@
             }
         }
         & .card-1{
-            background-color: #030c25;
+            background-color: $theme15;
             & .heading-1{
                 font-size: 25px;
                 font-weight: 700;
@@ -1100,6 +1114,7 @@
         }
     }
     .product-section{
+        background-color: $theme14;
         & .heading{
             font-size: 40px;
             font-weight: 700;
@@ -1107,7 +1122,7 @@
         }
         & .cnts{
             font-size: 16px;
-            font-weight: 600;
+            font-weight: 500;
         }
         & .freq{
             &:before{
@@ -1133,12 +1148,14 @@
                         &:after{
                             content: '-';
                             position: absolute;
+                            transform: none;
                         }
                     }
                     & .accordion-button{
                         font-size: 16px;
                         font-weight: 700;
                         position: relative;
+                        color: $black;
                         &:focus{
                             box-shadow: none;
                         } 
@@ -1158,6 +1175,7 @@
                     & .accordion-body{
                         font-size: 14px;
                         font-weight: 600;
+                        color: $black;
                     }
                 }
                 & .accordion-body .form-check-label{
@@ -1170,7 +1188,7 @@
      
     }
     .footer-section{
-        background-color: #030c25;
+        background-color: $theme15;
         & .imgs-1{
             & img{
                 filter: invert(1);
