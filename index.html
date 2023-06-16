@@ -75,14 +75,14 @@
                     <div class="container-fluid myHeader position-fixed py-2 top-0">
                         <div class="container">
                             <div class="row mx-0">
-                                <nav class="navbar navbar-expand-sm navbar-light">
+                                <nav class="navbar navbar-expand-md navbar-light">
                                     <div class="container-fluid texo-section">
                                         <a class="navbar-brand " href="#">
                                             <img src="assets/img/logo/logo.png" class="h-100 w-100" alt="">
                                         </a>
-                                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+                                        <!-- <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
                                             <span class="navbar-toggler-icon"></span>
-                                        </button>
+                                        </button> -->
                                         <div class="collapse navbar-collapse justify-content-center" id="collapsibleNavbar">
                                             <ul class="navbar-nav align-items-center gap-4">
                                                 <li class="nav-item dropdown">
@@ -113,8 +113,17 @@
                                                 </li>
                                             </ul>
                                         </div>
-                                        <div class="buttn">
+                                        <div class="buttn d-lg-block d-md-block d-none">
                                             <button type="button" class="btn border-0">Sign Up</button>
+                                        </div>
+                                        <div class="d-lg-none d-md-none d-block d-flex icons align-items-center">
+                                            <div class="buttn me-4">
+                                                <button type="button" class="btn border-0">Sign Up</button>
+                                            </div>
+                                            <button class="deletebtn bg-transparent text-white border-0 active position-relative"  type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
+                                            <div class="icn-1 icns position-absolute"><img src="assets/img/svg/menu_icon.svg" width="30px" alt=""></div>
+                                            <!-- <div class="icn-2 icns position-absolute"><img src="assets/img/svg/close.svg" class="w-25 h-25" alt=""></div> -->
+                                            </button>
                                         </div>
                                     </div>
                                 </nav>
@@ -131,10 +140,10 @@
                                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, fugit vel aliquid amet nihil non optio architecto.
                                         </div>
                                         <div class="row">
-                                            <div class="col-md-9 col-md-8 col-12">
+                                            <div class="col-lg-8 col-md-8 col-12">
                                                 <input type="text" class="form-control" placeholder="Your email address" name="email">
                                             </div>
-                                            <div class="col-md-3 col-md-4 col-12">
+                                            <div class="col-lg-4 col-md-4 col-12">
                                                 <div class="buttn">
                                                     <button type="button" class="btn">Get started</button>
                                                 </div>
@@ -290,7 +299,7 @@
                                 <div class="col-12">
                                     <div class="cnts text-black text-decoration-underline pt-2">4.9/5 Rating based on 20reviews</div>
                                 </div>
-                                <div class="col-lg-6 col-12">
+                                <div class="col-xl-6 col-lg-8 col-12">
                                     <div class="row align-items-center py-4">
                                         <div class="col-lg-2 col-md-2 col-sm-4 col-4">
                                             <div>
@@ -610,7 +619,7 @@
                     <div class="container-fluid creation-section pb-5">
                         <div class="container">
                             <div class="row align-items-center justify-content-between">
-                                <div class="col-lg-5 col-12 text-black px-0">
+                                <div class="col-lg-5 col-12 elit text-black px-0">
                                     <div class="heads pe-5 pb-3">
                                         GPT-3takes the hassle out of the content creation! 
                                     </div>
@@ -648,13 +657,12 @@
                                                     <div class="bg-black text-white p-3 fw-bold"></div>
                                                     <div class="get-2 px-3 pb-3">
                                                         <div class="row mx-0">
-                                                            <span class="placeholder col-7 mt-3 me-2 placeholder-xs rounded-4 bg-secondary opacity-25"></span>
-                                                            <span class="placeholder col-4 mt-3 placeholder-xs rounded-4 bg-secondary opacity-25"></span>
+                                                            <span class="placeholder col-7 exp mt-3 me-2 placeholder-xs rounded-4 bg-secondary opacity-25"></span>
+                                                            <span class="placeholder col-4 exp mt-3 placeholder-xs rounded-4 bg-secondary opacity-25"></span>
                                                             <span class="placeholder col-4 mt-3 me-2 placeholder-xs rounded-4 bg-secondary opacity-25"></span>
                                                             <span class="placeholder col-7 mt-3 placeholder-xs rounded-4 bg-secondary opacity-25"></span>
                                                             <span class="placeholder col-10 mt-3 placeholder-xs rounded-4 bg-secondary opacity-25"></span>
                                                         </div>
-                                                        
                                                         <div class="buttn-1">
                                                             <button type="button" class="btn w-100 border-0">Export</button>
                                                         </div>
@@ -677,7 +685,7 @@
                                                             <div class="lines-4 me-3"></div>
                                                             <div class="lines-4"></div>
                                                         </div>
-                                                        <div class="row mt-3">
+                                                        <div class="row mt-3 AI">
                                                             <div class="col-8">
                                                                 <div class="topic"> Select lenth</div>
                                                                 <span class="placeholder col-10 placeholder-xs rounded-4 bg-secondary opacity-25"></span>
@@ -689,7 +697,7 @@
                                                                 </div>
                                                             </div>
                                                         </div>
-                                                        <div class="row mt-3">
+                                                        <div class="row mt-3 AI">
                                                             <div class="col-8">
                                                                 <div class="topic"> Select lenth</div>
                                                                 <span class="placeholder col-10 placeholder-xs rounded-4 bg-secondary opacity-25"></span>
@@ -768,7 +776,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-lg-6 col-12 text-black cures order-lg-2 order-1 ps-5">
+                                <div class="col-lg-6 col-12 editor text-black cures order-lg-2 order-1 ps-5">
                                     <div class="heads pe-5 pb-3">
                                         AI - powered blog editor that cures your writer's block,
                                     </div>
@@ -813,14 +821,14 @@
                                     </div>
                                 </div>
                                 <div class="col-12 texto-1 mt-2 px-0 bg-white">
-                                    <nav class="navbar navbar-expand-sm navbar-light align-items-center">
+                                    <nav class="navbar navbar-expand-md navbar-light align-items-center">
                                         <div class="container-fluid texo-section">
                                             <a class="navbar-brand py-0" href="#">
                                                 <img src="assets/img/logo/logo.png" class="h-100 w-100" alt="">
                                             </a>
-                                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar-1">
+                                            <!-- <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar-1">
                                                 <span class="navbar-toggler-icon"></span>
-                                            </button>
+                                            </button> -->
                                             <div class="collapse navbar-collapse ps-5" id="collapsibleNavbar-1">
                                                 <ul class="navbar-nav align-items-center">
                                                     <li class="nav-item dropdown">
@@ -855,8 +863,14 @@
                                                     </li>
                                                 </ul>
                                             </div>
-                                            <div class="buttn">
+                                            <div class="buttn d-lg-block d-md-block d-none">
                                                 <button type="button" class="btn text-white px-4">Create account</button>
+                                            </div>
+                                            <div class="d-lg-none d-md-none d-block d-flex icons align-items-center">
+                                                <button class="deletebtn bg-transparent text-white border-0 active position-relative" onclick="MyFunction()" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasTop" aria-controls="offcanvastop#offcanvasTop">
+                                                <div class="icn-1 icns "><img src="assets/img/svg/list.svg" width="30px" height="30px" alt=""></div>
+                                                <!-- <div class="icn-2 icns position-absolute"><img src="assets/img/svg/close.svg" class="w-25 h-25" alt=""></div> -->
+                                                </button>
                                             </div>
                                         </div>
                                     </nav>
@@ -1112,8 +1126,8 @@
                                     <div class="row">
                                         <div class="col-lg-4 col-md-6 col-sm-12 col-12">
                                             <div class="card text-center pt-5 pb-4">
-                                                <div class="heading-1 pb-3">Starter</div>
-                                                <div class="numbr d-flex align-items-center justify-content-center pb-3">$24
+                                                <div class="heading-1 fw-bold pb-3">Starter</div>
+                                                <div class="numbr fw-bold d-flex align-items-center justify-content-center pb-3">$24
                                                     <span class="ps-3">Per month</span>
                                                 </div>
                                                 <div class="cnts pb-3">No credit card quired</div>
@@ -1122,13 +1136,13 @@
                                                 </div>
                                                 <div class="cnts pb-3">15000,words per month</div>
                                                 <div class="cnts pb-3">24 supported langvages</div>
-                                                <div class="cnts-1 pt-5">7 Days free trial</div>
+                                                <div class="cnts-1 fw-bold pt-5">7 Days free trial</div>
                                             </div>
                                         </div>
                                         <div class="col-lg-4 col-md-6 col-sm-12 col-12">
                                             <div class="card text-center pt-5 pb-4">
-                                                <div class="heading-1 pb-3">Growth plan</div>
-                                                <div class="numbr d-flex align-items-center justify-content-center pb-3">$166
+                                                <div class="heading-1 fw-bold pb-3">Growth plan</div>
+                                                <div class="numbr fw-bold d-flex align-items-center justify-content-center pb-3">$166
                                                     <span class="ps-3">Per month</span>
                                                 </div>
                                                 <div class="cnts pb-3">No credit card quired</div>
@@ -1137,13 +1151,13 @@
                                                 </div>
                                                 <div class="cnts pb-3">Everything Starter</div>
                                                 <div class="cnts pb-3">Predective Score and analytics</div>
-                                                <div class="cnts-1 pt-5">7 Days free trial</div>
+                                                <div class="cnts-1 fw-bold pt-5">7 Days free trial</div>
                                             </div>
                                         </div>
                                         <div class="col-lg-4 col-md-6 col-sm-12 col-12">
                                             <div class="card-1 text-center pt-5 pb-4">
-                                                <div class="heading-1 pb-3 text-white">Enterprise</div>
-                                                <div class="numbr d-flex align-items-center justify-content-center pb-3 text-white">Contact Sales
+                                                <div class="heading-1 fw-bold pb-3 text-white">Enterprise</div>
+                                                <div class="numbr fw-bold d-flex align-items-center justify-content-center pb-3 text-white">Contact Sales
                                                 </div>
                                                 <div class="cnts pb-3 text-white">No credit card quired</div>
                                                 <div class="buttn pb-3 my-3">
@@ -1151,7 +1165,7 @@
                                                 </div>
                                                 <div class="cnts pb-3 text-white">Unlimited Contact Generation</div>
                                                 <div class="cnts pb-3 text-white">Unlimited Contact Generation</div>
-                                                <div class="cnts-1 pt-5 text-white">7 Days free trial</div>
+                                                <div class="cnts-1 fw-bold pt-5 text-white">7 Days free trial</div>
                                             </div>
                                         </div>
                                     </div>
@@ -1170,7 +1184,7 @@
                                 </div>
                                 <div class="col-12 text-black freq position-relative pb-5">
                                     <div class="row">
-                                        <div class="col-6">
+                                        <div class="col-lg-6 col-md-6 col-sm-12 col-12">
                                             <div class="accordion" id="accordionExample">
                                                 <div class="accordion-item border border-2 mt-4">
                                                     <h2 class="accordion-header" id="headingOne">
@@ -1230,7 +1244,7 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="col-6">
+                                        <div class="col-lg-6 col-md-6 col-sm-12 col-12">
                                             <div class="accordion" id="accordionExample2">
                                                 <div class="accordion-item border border-2 mt-4">
                                                     <h2 class="accordion-header" id="headingFive">
@@ -1428,6 +1442,125 @@
                             </div>
                         </div>
                     </div>
+                    <div class="container-fluid footer-section-1 d-block d-md-none text-white text-center py-5">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-12">
+                                    <div class="head">
+                                        Enterprise
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="cont fw-bold pt-2">
+                                        Contact sales
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="cont-1">
+                                        card requierd
+                                    </div>
+                                </div>
+                                <div class="buttn py-3">
+                                    <div class="btn rounded-0 fw-bold">Contact sales</div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="cont-1">
+                                        Unlimited Content Generation
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="cont-1 pt-1">
+                                        Unlimited Content Generation
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- menu  -->
+                    <!-- <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">Toggle right offcanvas</button> -->
+
+                        <div class="offcanvas offcanvas-end bg-white w-75" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+                        <div class="offcanvas-header bg-theme1">
+                            <div class="offcanvas-title fw-semibold tag_title" id="offcanvasRightLabel"><img src="assets/img/logo/logo.png" alt="Logo" class="h-100"></div>
+                            <button type="button" class="closeBtn bg-transparent p-0 shadow-none border-0" data-bs-dismiss="offcanvas"
+                                aria-label="Close"><img src="assets/img/svg/close.svg" alt="" width="20px" height="20px"></button>
+                        </div>
+                        <div class="offcanvas-body">
+                            <ul class="navbar-nav ps-2 ">
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link text-black dropdown-toggle" data-bs-toggle="dropdown" href="#">Features</a>
+                                    <ul class="dropdown-menu">
+                                      <li><a class="dropdown-item" href="#">Link 1</a></li>
+                                      <li><a class="dropdown-item" href="#">Link 2</a></li>
+                                      <li><a class="dropdown-item" href="#">Link 3</a></li>
+                                    </ul>
+                                  </li>
+                                <li class="nav-item position-relative">
+                                    <a class="nav-link text-black" href="#">
+                                        Integrations
+                                    </a>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link text-black dropdown-toggle" data-bs-toggle="dropdown" href="#">Company</a>
+                                    <ul class="dropdown-menu">
+                                      <li><a class="dropdown-item" href="#">Link 1</a></li>
+                                      <li><a class="dropdown-item" href="#">Link 2</a></li>
+                                      <li><a class="dropdown-item" href="#">Link 3</a></li>
+                                    </ul>
+                                  </li>
+                                <li class="nav-item position-relative">
+                                    <a class="nav-link text-black" href="#">
+                                        Pricing
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        </div>
+                    <!-- menu-1-->
+                    <div class="offcanvas offcanvas-top" tabindex="-1" id="offcanvasTop" aria-labelledby="offcanvasTopLabel">
+                        <div class="offcanvas-header bg-theme1">
+                            <div class="offcanvas-title fw-semibold tag_title" id="offcanvasRightLabel"><img src="assets/img/logo/logo.png" alt="Logo" class="h-100"></div>
+                            <button type="button" class="closeBtn bg-transparent p-0 shadow-none border-0" data-bs-dismiss="offcanvas"
+                                aria-label="Close"><img src="assets/img/svg/close.svg" alt="" width="20px" height="20px"></button>
+                        </div>
+                        <div class="offcanvas-body">
+                            <ul class="navbar-nav gap-2 fw-bold text-black">
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link" href="#">
+                                        Website
+                                    </a>
+                                  </li>
+                                <li class="nav-item position-relative">
+                                    <a class="nav-link" href="#">
+                                        Blog
+                                    </a>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link" href="#">
+                                        SEO
+                                    </a>
+                                  </li>
+                                <li class="nav-item position-relative">
+                                    <a class="nav-link" href="#">
+                                        Marketing
+                                    </a>
+                                </li>
+                                <li class="nav-item position-relative">
+                                    <a class="nav-link" href="#">
+                                        Speciality
+                                    </a>
+                                </li>
+                                <li class="nav-item position-relative">
+                                    <a class="nav-link" href="#">
+                                        Useful Extras
+                                    </a>
+                                </li>
+                            </ul>
+                            <div class="buttn py-2">
+                                <button type="button" class="btn boroder border-2 border-theme1 rounded-0 px-2 fw-bold">Create account</button>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </main>
@@ -1435,5 +1568,15 @@
         <script type="module" src="assets/js/main.min.js"></script>
         <script src="assets/js/jquery.min.js"></script>
         <script src="assets/js/owl.min.js"></script>
+        <script>
+            function myFunction() {
+                document.body.classList.toggle('navbar-toggler')
+            }
+        </script>
+        <script>
+            function MyFunction() {
+                document.body.classList.toggle('navbar-toggler')
+            }
+        </script>
     </body>
 </html>

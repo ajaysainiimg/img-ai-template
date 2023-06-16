@@ -43,7 +43,7 @@
     width: 100% !important;
     height: 100% !important;
     overflow-x: hidden !important;
-    overflow-y: auto !important;
+    // overflow-y: auto !important;
     outline: 0 !important;
     display: block !important;
     user-select: none !important;
@@ -62,7 +62,7 @@
       height: 100% !important;
       margin: 0 !important;
       position: relative !important;
-      overflow: hidden !important;
+      overflow: hidden;
       padding: 0px !important;
 
       &>.mainInner {
@@ -73,7 +73,7 @@
         flex-direction: column !important;
         width: 100% !important;
         outline: 0 !important;
-        overflow: hidden !important;
+        overflow: hidden;
         margin: 0px !important;
         flex-wrap: nowrap;
         &> [data-page-name] {
