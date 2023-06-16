@@ -1182,7 +1182,7 @@
                 transform: translateX(10px);               
             }
             & .bloger{
-                padding-left: 10px;
+                
                 position: relative;
                 transition: all ease-in-out 0.3s;
                 opacity: 0.6;
@@ -1214,6 +1214,7 @@
                 &:hover{
                     color: $theme1 !important;
                     opacity: 1;
+                    padding-left: 10px;
                     transform: translateX(10px);
                     &:before {
                         opacity: 1;
