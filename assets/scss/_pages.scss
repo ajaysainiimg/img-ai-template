@@ -141,7 +141,7 @@
                 & .line {
                     height: 2px;
                     background-color: $black;
-                    width: 15%;
+                    width: 16%;
                 }
 
                 & .content {
@@ -175,11 +175,8 @@
                         font-weight: 400;
                     }
 
-                    & .stars {
-                        & .icn {
-                            font-size: 10px;
-                            color: $theme1;
-                        }
+                    & .star-img{
+                        width: 10px;
                     }
                 }
             }
@@ -202,14 +199,16 @@
                         & .cnts-1{
                             font-size: 10px;
                         }
-
                         & .time {
                             font-size: 10px;
 
                             & .icons {
                                 opacity: 0.8;
-
+                                & .clone{
+                                    width: 13px;
+                                }
                                 & .like {
+                                    width: 13px;
                                     color: $black;
                                 }
                             }
@@ -313,6 +312,10 @@
             font-size: 18px;
             font-weight: 600;
         }
+        & .stars-img{
+            width: 25px;
+            height: 25px;
+        }
     }
 
     .writer-section {
@@ -350,15 +353,7 @@
                 font-size: 14px;
                 font-weight: 600;
 
-                & .check {
-                    background: $theme1;
-                    border-radius: 50%;
-                    width: 15px;
-                    height: 15px;
-                    justify-content: center;
-                    display: flex;
-                    align-items: center;
-                }
+                
             }
 
             & .addvertisment {
@@ -505,16 +500,6 @@
                 & .cont {
                     font-size: 14px;
                     font-weight: 600;
-
-                    & .check {
-                        background: $theme1;
-                        border-radius: 50%;
-                        width: 15px;
-                        height: 15px;
-                        justify-content: center;
-                        display: flex;
-                        align-items: center;
-                    }
                 }
 
                 & .head-1 {
@@ -607,16 +592,6 @@
                     font-size: 14px;
                     font-weight: 600;
                     padding-bottom: 120px;
-
-                    & .check {
-                        background: $theme1;
-                        border-radius: 50%;
-                        width: 15px;
-                        height: 15px;
-                        justify-content: center;
-                        display: flex;
-                        align-items: center;
-                    }
                 }
             }
         }
@@ -638,16 +613,6 @@
 
         & .cont {
             font-size: 14px;
-
-            & .check {
-                background: $theme1;
-                border-radius: 50%;
-                width: 15px;
-                height: 15px;
-                justify-content: center;
-                display: flex;
-                align-items: center;
-            }
         }
 
         .hassle {
@@ -876,7 +841,6 @@
                         transition: all ease-in-out 0.3s;
                         &:hover{
                             color: $theme15 !important;
-                            transition: all ease-in-out 0.3s;
                         }
                     }
                 }
@@ -1343,6 +1307,7 @@
             & .addvertisment{
                 & .effect{
                     margin-right: 0 !important;
+                    
                 }
                 & .social-icn{
                     width: 300px;
