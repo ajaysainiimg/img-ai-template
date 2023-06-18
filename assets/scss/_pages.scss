@@ -386,6 +386,10 @@
 
                 & .check-1 {
                     font-size: 14px;
+                    & .vector{
+                        width: 13px;
+                        height: 13px;
+                    }
                 }
 
                 & .work {
@@ -665,6 +669,9 @@
                 & .heads {
                     font-size: 16px;
                     color: $theme1;
+                    & .cross-img{
+                        width: 30px;
+                    }
                 }
 
                 & .get-3 {
@@ -723,6 +730,9 @@
                 z-index: 1;
                 & .heads-1{
                     font-size: 16px;
+                    & .cross-img{
+                        width: 30px;
+                    }
                 }
                 & .get-2 {
                     & .head-2{
@@ -733,6 +743,9 @@
                     & .teams{
                         font-size: 11px;
                         font-weight: 500;
+                        & .chk-img{
+                            width: 15px;
+                        }
                     }
                     & .lne-1{
                         height: 5px;
@@ -797,9 +810,10 @@
             & .btn{
                 font-weight: 600;
                 font-size: 14px;
-                & .btn-line{
-                    height: 2px;
+                & .right-arrow-img{
+                    width: 16px;
                 }
+                
             }
         }
     }
@@ -819,8 +833,8 @@
                 & .btn{
                     font-weight: 500;
                     font-size: 20px;
-                    & .btn-line{
-                        height: 1px;
+                    & .right-arrow-img{
+                        width: 16px;
                     }
                 }
             }
@@ -1236,7 +1250,12 @@
         & .address{
             & .image-2{
                 right: 5px;
-                height: 30px;
+                width: 12px;
+            }
+        }
+        .scl-icn{
+            & .incs-1{
+                width: 45px;
             }
         }
 
@@ -1518,6 +1537,9 @@
                     }
                 }
                 & .offcanvas-end{
+                    & .closeBtn{
+                        width: 20px;
+                    }
                     & .navbar-nav{
                         & .nav-item {
                             & .nav-link:hover{
@@ -2065,6 +2087,9 @@
 }
 .offcanvas-end{
     z-index: 9999;
+    & .closeBtn{
+        width: 20px;
+    }
     & .offcanvas-body{
         & .navbar-nav{
             & .nav-item{
@@ -2103,6 +2128,9 @@
 }
 .offcanvas-top{
     min-height: 40%;
+    & .closeBtn{
+        width: 20px;
+    }
     & .offcanvas-header{
         & .offcanvas-title{
             & img{
